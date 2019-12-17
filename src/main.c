@@ -22,7 +22,7 @@ typedef struct {
     MainFunctionHandler_t handler;
 } Entry_t;
 
-Entry_t g_applets[] = {{"lsdir", lsdir_main}, {"nice", nice_main}};
+Entry_t g_applets[] = {"lsdir", lsdir_main};
 
 int main(int argc, char **argv)
 {
